@@ -1,0 +1,290 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Lobster Two', cursive;
+	list-style: none;
+}
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+header{
+	width: 100%;
+	height: 400px;
+}
+.containerheader__divone{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	position: fixed;
+	z-index: 999;
+}
+.containerheader__divone__img{
+	width: 45px;
+}
+nav{
+	margin-left: 70%;
+	display: inline-flex;
+	width: 150px;
+	position: relative;
+	left: 2%;
+	bottom: 10px;
+}
+.containerlinknav{
+	font-size: 30px;
+	padding: 5px;
+	color: #5C0D5E;
+}
+.containerheader__img{
+	width: 100%;
+	height: 630px;
+}
+.containerheader__divtwo{
+	width: 170px;
+	height: 60px;
+	background-color: white;
+	position: relative;
+	bottom: 80px;
+	left: 86%;
+}
+.containerheader__divtwo__parag{
+	color: #5C0D5E;
+}
+main{
+	background-color: #9E8B8D;
+	width: 100%;
+	height: 850px;
+}
+.corpo{
+	width: 200px;
+	height: 300px;
+	background-color: #FF2157;
+	border-radius: 50%;
+	position: absolute;
+	left: 20%;
+	top: 800px;
+	box-shadow: 5px 5px 0 #333;
+  }
+.olhoesquerdo{
+	width: 50px;
+	height: 30px;
+	background-color: white;
+	border-radius: 90%;
+	position: relative;
+	left: 22%;
+	top: 50px;
+}
+.olhodireito{
+	width: 50px;
+	height: 30px;
+	background-color: white;
+	border-radius: 90%;
+	position: relative;
+	left: 55%;
+	top: 80px;
+}
+.bolaesquerda{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: aquamarine;
+	position: relative;
+	left: 15px;
+	top: 5px;
+}
+.boladireita{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: aquamarine;
+	position: relative;
+	left: 15px;
+	top: 5px;
+}
+.braçoesquerdo{
+	width: 30px;
+	height: 110px;
+	background-color: #FF2157;
+	position: relative;
+	left: 227px;
+	top: 530px;
+	border-radius: 50%;
+	box-shadow: 3px 3px 0 #333;
+
+}
+.braçodireito{
+	width: 30px;
+	height: 110px;
+	background-color: #FF2157;
+	position: relative;
+	left: 457px;
+	top: 420px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 0 #333;
+}
+.boca{
+	width: 80px;
+	height: 35px;
+	background-color: red;
+	border-radius: 70%;
+	position: relative;
+	left: 322px;
+	top: 300px
+}
+.dentecima{
+	width: 60px;
+	height: 10px;
+	background-color: white;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+	position: relative;
+	left: 10px;
+	top: 4px;
+}
+.dentebaixo{
+	width: 60px;
+	height: 10px;
+	background-color: white;
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+	position: relative;
+	left: 10px;
+	top: 12px;
+}
+.cabeça{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	left: 900px;
+	top: 800px;
+	box-shadow: 5px 5px 0 #333;
+}
+.olhoesquerdotwo{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: black;
+	position: relative;
+	left: 30px;
+	top: 45px;
+}
+.olhodireitotwo{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: black;
+	position: relative;
+	left: 60px;
+	top: 30px;
+}
+.nariz{
+	width: 30px;
+	height: 10px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-top-right-radius: 15%;
+	border-bottom-right-radius: 15%;
+	background-color: tomato;
+	position: relative;
+	left: 23px;
+	top: 40px;
+}
+.bocatwo{
+	width: 20px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: red;
+	position: relative;
+	left: 42px;
+	top: 50px;
+}
+.corpotwo{
+	width: 195px;
+	height: 195px;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	left: 870px;
+	top: 910px;
+	box-shadow: 5px 5px 0 #333;
+}
+.braçoesquerdotwo{
+	width: 50px;
+	height: 10px;
+	background-color: #74250F;
+	position: relative;
+	right: 35px;
+	top: 50px;
+}
+.braçodireitotwo{
+	width: 80px;
+	height: 10px;
+	background-color: #74250F;
+	position: relative;
+	left: 150px;
+	top: 50px;
+	box-shadow: 5px 0 0 #333;
+}
+.botaoone{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: black;
+	position: relative;
+	left: 70px;
+	top: 45px;
+}
+.botaotwo{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: black;
+	position: relative;
+	left: 70px;
+	top: 50px;
+}
+.botaothree{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: black;
+	position: relative;
+	left: 70px;
+	top: 55px;
+}
+footer{
+	width: 100%;
+	height: 600px;
+}
+.logofooter{
+	position: relative;
+	left: 50px;
+	top: 150px;
+}
+ul{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	left: 40%;
+	bottom: 170px
+}
+.linkfooter{
+	font-size: 70px;
+}
+.email{
+	width: 110px;
+	height: 50px;
+	position: relative;
+	left: 80%;
+	bottom: 200px;
+	font-size: 25px;
+}
+.paragrafooter{
+	width: 110px;
+	font-size: 20px;
+	position: relative;
+	left: 81.5%;
+	bottom: 170px;
+	text-align: center;
+}
